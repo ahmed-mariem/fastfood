@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@700&family=Indie+Flower&family=Kanit:wght@200;300;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 20px 10px;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: 0.5s;
+}
+
+
+.navbar{
+    display: flex;
+    position: relative;
+}
+.navbar li{
+    list-style: none;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+.sig{
+    display: flex;
+    position: relative;
+}
+.sig li{
+    list-style: none;
+}
+.sig a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+}
+
+.signin{
+    padding: 10px 20px;
+    background: #000000;
+   margin-top: -10px;
+   text-transform:uppercase ;
+}
+
+
+.signin:hover{
+    background: #bcc4c6;
+    transition: ease-out;
+}
+
+header .navbar li a:hover{
+    color: #f6f6f2;
+    border-bottom: 2px solid #f30004;
+}
+
+.wel {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    
+}
+.WELCOME{
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://www.mbmtradingco.com/wp-content/uploads/2022/09/2001.jpg);
+    background-repeat: no-repeat;
+    background-size: 1530px 700px;
+}
+
+.WELCOME .contenu{
+    max-width: 70%;
+    text-align: center;
+}
+.WELCOME .contenu h2{
+    color: #fff;
+    font-size: 3em;
+    text-transform: capitalize;
+}
+
+
+.btn1{
+    font-size: 1em;
+    color:  #fff;
+    background: #f30004;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+.btn2{
+    font-size: 1em;
+    color: #fff;
+    background: #111;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+}
+
+.btn1:hover{
+letter-spacing: 4px;
+}
+.btn2:hover{
+    letter-spacing: 4px;
+}
+section{
+    padding: 100px;
+}
+.row{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row .col{
+    position: relative;
+    width: 48%;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+.col{
+    margin-left: 100px;
+}
+
+/* .row .col h2{
+    margin-top: 5000px;
+    
+} */
+
+
+.titre-texte{
+    color: #000;
+    font-size: 2em;
+    font-weight: 300px;
+    text-transform: capitalize;
+}
+.infos{
+    width: 80px;
+    height: 100px;
+    background-color: #390100;
+}
+
+
+
+.titre{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.Plats{
+    margin-top: -100px;
+    background: #390100;
+}
+
+.Plats .contenu{
+    display: flex;
+    /* //dhahertehom bjnab badhehom */
+    justify-content: center;
+    flex-wrap: wrap;
+    /* // bech tadherli 2 par 2 */
+    margin-top: 40px;
+}
+
+.Plats .contenu .box{
+    width: 350px;
+    background: #ffffff;
+    margin: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+}
+
+.Plats .contenu .box .imbox{
+    position: relative;
+    background: #ffffff;
+
+    width: 100%;
+    height: 300px;
+}
+
+.Plats .contenu .box .imbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+
+}
+
+
+
+
+.Sandwichs{
+    margin-top: -100px;
+}
+
+.Sandwichs .contenu{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.Sandwichs .contenu .box{
+    width: 350px;
+    margin: 20px;
+    border: 20px solid #fff;
+    box-shadow: 20px 15px 35px rgba(0,0,0, 0.8);
+}
+
+.Sandwichs .contenu .box .imbox{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.Sandwichs .contenu .box .imbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+
+}
+
+
+
+
+header.sticky{
+    background: #fff;
+    padding: 10px 10px;
+    box-shadow: 0px 5px 20px rgba(0,0,0, 0.05);
+}
+
+
+
+header.sticky .navbar li a {
+    color: #000;
+}
+header.sticky .sig li a {
+    color: #fff;
+}
+
+header.sticky li a:hover{
+    color: #000;
+    border-bottom: 2px solid #f30004;
+}
+header.sticky .logo h1{
+    color: rgb(0, 0, 0);
+}
+
+.fonts{
+    font-family: 'Zen Dots', cursive;
+}
+
+h1{
+    font-family: 'Nerko One', cursive;
+    color: #fff;
+}
+
+.logo {
+    width: 180px;
+    height: 130px;
+}
+
+.details{
+    color: #000;
+    margin-top: 20px;
+}
+
+.pop-up {
+    width:  400px;
+    background-color: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50% , -50%) ;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden; 
+    transition: transform 0.4s top 0.4s;
+
+}
+
+.pop-up h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+
+}
+#marhbe{
+    font-size: 50px;
+}
+#lahdha{
+    font-size: 20px;
+}
+.pop-up button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #f30004;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0, 0 ,0, 0.2);
+}
+
+.open-popup {
+    visibility: visible;
+    top:50%;
+    transform: translate(-50% -50%) scale(1);
+   
+}
